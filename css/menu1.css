@@ -1,0 +1,156 @@
+body {
+    max-width: 1400px;
+}
+
+header {
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: rgb(207, 207, 207) 2px solid;
+}
+
+.logo img {
+    
+    width: 60%;
+    height: auto;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    width: 10%;
+}
+
+
+
+.logo p {
+    width: 10%;
+    height: auto;
+}
+
+#entire-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.image-restaurant {
+    display: flex;
+    justify-content: center;
+}
+
+.image-restaurant img {
+    max-width: 800px;
+    width: 100%;
+}
+
+.menus {
+    max-width: 800px;
+    width:100%;
+    margin-top: -70px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    justify-content: center;
+    background-color: rgb(240, 240, 240)
+    
+}
+
+.menus button {
+    font-size: 20px;
+    border-radius: 40px;
+    width: 60%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: #9356DC;
+    background-image: linear-gradient(180deg, #FF79DA, #9356DC);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.menus button:hover {
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+.menus button:active {
+    border: #FF79DA 1px solid;
+}
+
+
+
+.entrees, .plats, .desserts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+    width:calc(100% - 60px);
+}
+
+.menus h4 {
+    width: 90%;
+    padding: 10px;
+    margin-top: -20px;
+    color: #9356DC;
+
+}
+
+.plat {
+    background-color: white;
+    box-shadow: rgb(219, 219, 219) 3px 5px 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 30px;
+    margin: 10px;
+}
+
+.plat:hover {
+    background-color: #ecd5e5;
+    cursor: pointer;
+}
+
+.plat:active {
+    border: #9356DC 1px solid;
+}
+
+.info {
+    
+    width: 90%;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+footer {
+    background-color: rgb(70, 70, 70);
+}
+
+footer img {
+    padding: 10px;
+    width: 40%;
+    max-width: 200px;
+    }
+
+
+footer p {
+    padding: 5px;
+    margin: 0;
+    color: white;
+}

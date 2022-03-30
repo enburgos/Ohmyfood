@@ -1,0 +1,254 @@
+
+body {
+    max-width: 1400px;
+}
+
+header {}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: rgb(207, 207, 207) 2px solid;
+}
+
+.logo img {
+    width: 60%;
+    height: auto;
+    max-width: 400px;
+}
+
+.entire-page {}
+
+.location {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(230, 228, 228);
+    font-size: large;
+}
+
+.location i {
+    margin-right: 10px;
+}
+
+.explorer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.explorer h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.explorer p {
+    margin: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+.explorer button {
+    font-size: 20px;
+    border-radius: 40px;
+    width: 70%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #9356DC;
+    background-image: linear-gradient(180deg, #FF79DA, #9356DC);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.explorer button:active {
+    border: black 1px solid;
+}
+
+.fonctionnement {}
+
+.fonctionnement h3 {
+    margin-left: 5px;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+
+.list-fonctionnement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fiche-fonctionnement {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+
+.fiche-fonctionnement button:hover {
+    background-color: #ecd5e5;
+}
+
+.fiche-fonctionnement button:active {
+    border: #9356DC 1px solid;
+}
+
+.fiche-fonctionnement button {
+    max-width: 800px;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgb(219, 219, 219) 3px 5px 10px;
+
+}
+
+.fiche-fonctionnement i {
+    font-size: 20px;
+    margin-right: 30px;
+    color: #9356DC;
+}
+
+.restaurants {
+    background-color: rgb(240, 240, 240);
+
+}
+
+.restaurants h3 {
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 50px 0px 0px 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.list-restaurant {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fiche-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.fiche-restaurant a {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    background-color: rgb(255, 255, 255);
+    max-width: 800px;
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: rgb(219, 219, 219) 3px 5px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.fiche-restaurant a:hover {
+    background-color: #ecd5e5;
+    border: #9356DC 2px solid;
+}
+
+.fiche4 {
+    margin-bottom: 40px;
+}
+
+
+
+.fiche-restaurant img {
+    width: 100%;
+    max-width: 800px;
+    height: 70%;
+    object-fit: cover;
+}
+
+.text-restaurant {
+    width: 80%;
+    font-size: 20px;
+}
+
+.fiche-restaurant h4 {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+.fiche-restaurant p {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.fiche-restaurant i {
+    font-size: 30px;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #9356DC;
+    
+}
+
+.fiche-restaurant i:hover {
+    color: red;
+}
+
+.fiche-restaurant i:active {
+    color: red;
+}
+
+
+footer {
+    background-color: rgb(70, 70, 70);
+}
+
+footer img {
+    padding: 10px;
+    width: 40%;
+    max-width: 200px;
+    }
+
+
+footer p {
+    padding: 5px;
+    margin: 0;
+    color: white;
+}
