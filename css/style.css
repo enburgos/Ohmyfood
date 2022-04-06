@@ -18,7 +18,8 @@ header {}
     max-width: 400px;
 }
 
-.entire-page {}
+.entire-page {
+}
 
 .location {
     display: flex;
@@ -26,6 +27,7 @@ header {}
     padding: 10px;
     background-color: rgb(230, 228, 228);
     font-size: large;
+    font-family: 'roboto', sans-serif;
 }
 
 .location i {
@@ -47,6 +49,7 @@ header {}
     margin-bottom: 10px;
     width: 80%;
     text-align: center;
+    font-family: 'robotoz', sans-serif;
 }
 
 .explorer p {
@@ -56,6 +59,7 @@ header {}
     justify-content: center;
     width: 100%;
     text-align: center;
+    font-family: 'roboto', sans-serif;
 
 }
 
@@ -70,6 +74,7 @@ header {}
     background-image: linear-gradient(180deg, #FF79DA, #9356DC);
     color: rgb(255, 255, 255);
     border: none;
+    font-family: 'roboto', sans-serif;
 }
 
 .explorer button:active {
@@ -84,7 +89,8 @@ header {}
     margin-top: 30px;
     margin-left: 20px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'robotoz', sans-serif;
 }
 
 
@@ -125,6 +131,7 @@ header {}
     font-size: 20px;
     cursor: pointer;
     box-shadow: rgb(219, 219, 219) 3px 5px 10px;
+    font-family: 'roboto', sans-serif;
 
 }
 
@@ -143,8 +150,9 @@ header {}
     margin-top: 30px;
     margin-left: 15px;
     padding: 50px 0px 0px 10px;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
+    font-family: 'robotoz', sans-serif;
 }
 
 .list-restaurant {
@@ -167,7 +175,7 @@ header {}
     flex-wrap: wrap;
     margin: 2%;
     background-color: rgb(255, 255, 255);
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
     height: 250px;
     border-radius: 25px;
@@ -175,6 +183,7 @@ header {}
     box-shadow: rgb(219, 219, 219) 3px 5px 10px;
     color: black;
     text-decoration: none;
+    font-family: 'robotoz', sans-serif;
 }
 
 .fiche-restaurant a:hover {
@@ -238,6 +247,7 @@ header {}
 
 footer {
     background-color: rgb(70, 70, 70);
+    font-family: 'roboto', sans-serif;
 }
 
 footer img {
