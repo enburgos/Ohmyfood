@@ -18,7 +18,7 @@ header {
     
     width: 60%;
     height: auto;
-    max-width: 600px;
+    max-width: 400px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -52,11 +52,13 @@ header {
 .image-restaurant {
     display: flex;
     justify-content: center;
+    max-height: 350px;
 }
 
 .image-restaurant img {
     max-width: 800px;
     width: 100%;
+    object-fit: cover;
 }
 
 .menus {
@@ -163,7 +165,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    padding: 30px;
+    padding: 20px;
     margin-top: 10px;
     font-size: 35px;
     font-family: 'Shrikhand', cursive;
