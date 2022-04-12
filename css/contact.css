@@ -53,6 +53,7 @@ header {}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .contact {
@@ -65,6 +66,11 @@ header {}
     padding: 10px;
     border-radius: 25px;
     max-height: 70px;
+    
+}
+
+.contact i:hover {
+    transform: rotate(1turn);
 }
 
 .contact i {
@@ -74,6 +80,7 @@ header {}
     padding: 12px;
     font-size: 45px;
     border-radius: 25%;
+    transition: all .5s ease-in-out;
 
 
 }
@@ -89,6 +96,8 @@ header {}
     word-break: break-all;
 
 }
+
+
 
 .insta {
     

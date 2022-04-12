@@ -124,10 +124,87 @@ header {
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
-    width:calc(100% - 30px);
-    padding: 15px;
+    width: 100%;
+    padding: 0px;
     margin: 10px 0px;
+    animation: slideDown 2s;
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.plat-part-gauche {
     
+    flex: 1;
+    padding: 10px;
+}
+
+.anim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2D0;
+    width: 0%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: .5s;
+    
+
+    
+    
+}
+
+.anim i {
+    color: white;
+    font-size: 30px;
+}
+
+.plat:hover .anim i {
+    animation: rotation .5s;
+}
+
+
+.plat:hover .anim{
+
+    
+    width: 20%;
+    
+}
+
+
+
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+@keyframes slideDown{
+
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 
 }
 
@@ -139,9 +216,7 @@ header {
     color: black;
 }
 
-.plat:hover {
-    background-color: #ffbeed;
-}
+
 
 .plat-infos {
     display: flex;
