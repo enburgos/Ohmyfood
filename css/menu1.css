@@ -1,11 +1,8 @@
-
-
 body {
     max-width: 1400px;
 }
 
-header {
-}
+header {}
 
 .logo {
     display: flex;
@@ -15,7 +12,7 @@ header {
 }
 
 .logo img {
-    
+
     width: 60%;
     height: auto;
     max-width: 400px;
@@ -63,7 +60,7 @@ header {
 
 .menus {
     max-width: 800px;
-    width:100%;
+    width: 100%;
     margin-top: -70px;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +68,6 @@ header {
     border-top-right-radius: 60px;
     justify-content: center;
     background-color: rgb(240, 240, 240)
-    
 }
 
 .menus button {
@@ -104,7 +100,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px 0;
-    width:calc(100% - 30px);
+    width: calc(100% - 30px);
     max-width: 600px;
 }
 
@@ -135,7 +131,7 @@ header {
 }
 
 .plat-part-gauche {
-    
+
     flex: 1;
     padding: 10px;
 }
@@ -149,10 +145,10 @@ header {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     transition: .5s;
-    
 
-    
-    
+
+
+
 }
 
 .anim i {
@@ -165,36 +161,26 @@ header {
 }
 
 
-.plat:hover .anim{
+.plat:hover .anim {
 
-    
+
     width: 20%;
-    
+
 }
-
-
-
 
 
 @keyframes rotation {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(359deg);
+        transform: rotate(360deg);
     }
-  }
+}
 
 
-
-
-
-
-
-
-
-
-@keyframes slideDown{
+@keyframes slideDown {
 
     0% {
         transform: translateY(30px);
@@ -236,7 +222,7 @@ header {
 
 
 .info {
-    
+
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -270,7 +256,7 @@ footer img {
     padding: 10px;
     width: 40%;
     max-width: 200px;
-    }
+}
 
 
 footer a {

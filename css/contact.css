@@ -69,9 +69,7 @@ header {}
     
 }
 
-.contact i:hover {
-    transform: rotate(1turn);
-}
+
 
 .contact i {
     display: flex;
@@ -80,10 +78,30 @@ header {}
     padding: 12px;
     font-size: 45px;
     border-radius: 25%;
-    transition: all .5s ease-in-out;
+    animation: rotation 1s;
 
 
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
 
 .contact p {
     font-family: 'Shrikhand', cursive;
@@ -94,6 +112,7 @@ header {}
     margin-right: 30px;
     font-size: 18px;
     word-break: break-all;
+    animation: apparition 3s;
 
 }
 

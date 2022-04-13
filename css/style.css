@@ -144,8 +144,11 @@ header {}
     cursor: pointer;
     box-shadow: rgb(219, 219, 219) 3px 5px 10px;
     font-family: 'roboto', sans-serif;
+    
 
 }
+
+
 
 .number {
     background-color: #9356DC;
@@ -160,6 +163,17 @@ header {}
     font-size: 20px;
     margin-right: 20px;
     color: rgb(87, 87, 87);
+    animation: rotation 1s;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .fiche-fonctionnement p {
@@ -257,6 +271,7 @@ header {}
     justify-content: center;
     align-items: center;
     color: #9356DC;
+    animation: rotation 1s;
     
 }
 
