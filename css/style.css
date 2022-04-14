@@ -3,6 +3,53 @@ body {
     max-width: 1400px;
 }
 
+.loader {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #9356DC;
+    font-size: 100px;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    animation: disappear .1s forwards;
+    animation-delay: 2s;
+    opacity: 1;
+}
+
+.loader i {
+    animation: rotation 2s;
+}
+
+.loader img {
+    width: 300px;
+    margin-top: 20px;
+    animation: opacityyy 2s;
+}
+
+@keyframes disappear {
+    to {
+        transform: scale(0);
+    }
+
+
+}
+
+@keyframes opacityyy {
+    from {
+        opacity: 0;
+        margin-top: 120px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 20px;
+    }
+}
+
 header {}
 
 .logo {
@@ -124,6 +171,10 @@ header {}
     background-color: #ebdaff;
 }
 
+.fiche-fonctionnement:hover i {
+    animation: rotation 1s;
+}
+
 
 .fiche-fonctionnement button:active {
     border: #9356DC 1px solid;
@@ -163,7 +214,6 @@ header {}
     font-size: 20px;
     margin-right: 20px;
     color: rgb(87, 87, 87);
-    animation: rotation 1s;
 }
 
 @keyframes rotation {
@@ -228,6 +278,8 @@ header {}
 .fiche-restaurant a:hover {
     background-color: #ebdaff;
 }
+
+
 
 .fiche4 {
     margin-bottom: 40px;
