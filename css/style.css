@@ -1,6 +1,7 @@
 
 body {
     max-width: 1400px;
+    margin: 0;
 }
 
 .loader {
@@ -128,10 +129,16 @@ header {}
     color: rgb(255, 255, 255);
     border: none;
     font-family: 'roboto', sans-serif;
+    box-shadow: rgb(158, 157, 157) 2px 2px 5px;
+}
+
+.explorer button:hover {
+    background-image: linear-gradient(180deg, #ffbcec, #aa84d9);
+    box-shadow: rgb(116, 116, 116) 2px 2px 5px;
 }
 
 .explorer button:active {
-    border: black 1px solid;
+    box-shadow: rgb(51, 51, 51) 2px 2px 5px;
 }
 
 .fonctionnement {}
@@ -295,7 +302,7 @@ header {}
 }
 
 .text-restaurant {
-    width: 80%;
+    flex: 1;
     font-size: 20px;
 }
 
@@ -304,7 +311,7 @@ header {}
     padding: 0;
     margin: 0;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 
@@ -316,24 +323,42 @@ header {}
     margin-left: 20px;
 }
 
-.fiche-restaurant i {
-    font-size: 30px;
+.heart {
     display: flex;
-    width: 20%;
     justify-content: center;
     align-items: center;
-    color: #9356DC;
-    animation: rotation 1s;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.empty-heart {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: red;
     
 }
 
-.fiche-restaurant i:hover {
+.full-heart {
+    font-size: 35px;
+    display: none !important;
+    justify-content: center;
     color: red;
+
+
 }
 
-.fiche-restaurant i:active {
-    color: red;
+.heart:hover .empty-heart {
+    display: none;
 }
+
+.heart:hover .full-heart {
+    display: flex !important;
+}
+
+
+
+
 
 
 footer {

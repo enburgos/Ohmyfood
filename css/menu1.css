@@ -1,5 +1,6 @@
 body {
     max-width: 1400px;
+    margin: 0;
 }
 
 header {}
@@ -123,12 +124,26 @@ header {}
     width: 100%;
     padding: 0px;
     margin: 10px 0px;
-    animation: slideDown 2s;
+    animation: slideDown 2s both;
     background-color: white;
     overflow: hidden;
     cursor: pointer;
 
 }
+
+.entrees .plat {
+    animation-delay: 0.5s;
+}
+
+.plats .plat {
+    animation-delay: 1s;
+}
+
+.desserts .plat {
+    animation-delay: 1.5s;
+}
+
+
 
 .plat-part-gauche {
 
@@ -198,7 +213,7 @@ header {}
     margin: 0;
     padding: 0;
     width: 80%;
-    font-family: 'Robotozmonreuf', sans-serif;
+    font-family: 'Robotozm', sans-serif;
     color: black;
 }
 
@@ -237,12 +252,27 @@ header {}
     margin: 0;
 }
 
-.info i {
-    color: #9356DC;
+
+.coeurs {
+    display: flex;
+    align-items: center;
 }
 
-.info i:hover {
+.coeur1 {
     color: red;
+}
+
+.coeur2 {
+    color: red;
+    display: none !important;
+}
+
+.coeurs:hover .coeur1 {
+    display: none;
+}
+
+.coeurs:hover .coeur2 {
+    display: flex !important;
 }
 
 footer {
