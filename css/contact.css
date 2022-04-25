@@ -147,6 +147,13 @@ footer {
     font-family: 'roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
+}
+
+footer span {
+    font-size: 40px;
+    color: white;
+    font-family: 'Shrikhand', cursive;
 }
 
 footer img {

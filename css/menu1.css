@@ -103,7 +103,30 @@ header {}
     padding: 30px 0;
     width: calc(100% - 30px);
     max-width: 600px;
+    font-family: 'roboto', sans-serif;
+    position: relative;
 }
+
+.titles {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+
+.titles span {
+    background-color: #9356DC;
+    
+}
+
+.titles::before {
+    content: "";
+    background-color: #99E2D0;
+   display: block;
+   height: 3px;
+   width: 40px;
+   margin-bottom: -25px;
+}
+
 
 .menus h4 {
     width: 90%;
@@ -132,15 +155,15 @@ header {}
 }
 
 .entrees .plat {
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 
 .plats .plat {
-    animation-delay: 1s;
+    animation-delay: 0.4s;
 }
 
 .desserts .plat {
-    animation-delay: 1.5s;
+    animation-delay: 0.6s;
 }
 
 
@@ -256,23 +279,48 @@ header {}
 .coeurs {
     display: flex;
     align-items: center;
+    background-color: #FF79DA;
+    position: relative;
 }
 
 .coeur1 {
-    color: red;
+    position: absolute;
+    color: black;
+    right: 10px;
+    z-index: 1;
 }
 
 .coeur2 {
-    color: red;
-    display: none !important;
-}
-
-.coeurs:hover .coeur1 {
-    display: none;
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    background: linear-gradient(to bottom, #FF79DA 30%, #9356DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .coeurs:hover .coeur2 {
-    display: flex !important;
+
+    animation: heart-apparition .5s both;
+}
+
+@keyframes heart-apparition {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+footer span {
+    font-size: 30px;
+    color: white;
+    font-family: 'Shrikhand', cursive;
 }
 
 footer {
@@ -280,6 +328,7 @@ footer {
     font-family: 'roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 footer img {
@@ -295,4 +344,8 @@ footer a {
     margin: 0;
     color: white;
     text-decoration: none;
+}
+
+footer i {
+    width: 30px;
 }
