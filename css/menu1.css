@@ -247,7 +247,6 @@ header {}
 .plat-infos {
     display: flex;
     margin-top: 5px;
-    background-color: #99E2D0;
     
 }
 
@@ -262,7 +261,6 @@ header {}
 }
 
 .plat-infos strong {
-    background-color: #9356DC;
     width: 12%;
 }
 
