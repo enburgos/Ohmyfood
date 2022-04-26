@@ -307,6 +307,11 @@ header {}
     background-color: #ebdaff;
 }
 
+.fiche-restaurant a:hover .new {
+    padding: 15px;
+    border: #9356DC solid 1px;
+}
+
 
 
 .fiche4 {
