@@ -284,6 +284,7 @@ header {}
     padding: 10px;
     right: 40px;
     top: 30px;
+    transition: .5s;
 }
 
 .fiche-restaurant a {
@@ -309,7 +310,6 @@ header {}
 
 .fiche-restaurant a:hover .new {
     padding: 15px;
-    border: #9356DC solid 1px;
 }
 
 
