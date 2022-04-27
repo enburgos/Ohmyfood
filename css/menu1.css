@@ -85,12 +85,13 @@ header {}
 }
 
 .menus button:hover {
-    border: black solid 1px;
-    cursor: pointer;
+    filter: brightness(1.1);
+    background-image: linear-gradient(180deg, #ffbcec, #aa84d9);
+    box-shadow: rgb(116, 116, 116) 2px 2px 5px;
 }
 
 .menus button:active {
-    border: #FF79DA 1px solid;
+    box-shadow: rgb(51, 51, 51) 2px 2px 5px;
 }
 
 
@@ -138,12 +139,9 @@ header {}
 
 .plat {
     display: flex;
-    flex-wrap: wrap;
     background-color: white;
     box-shadow: rgb(219, 219, 219) 3px 5px 10px;
     border-radius: 25px;
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     padding: 0px;
     margin: 10px 0px;
@@ -240,6 +238,9 @@ header {}
     width: 80%;
     font-family: 'Robotozm', sans-serif;
     color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -255,7 +256,7 @@ header {}
     padding: 0;
     flex: 1;
     font-family: 'roboto', sans-serif;
-    white-space: nowrap;
+    white-space: pre-wrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
